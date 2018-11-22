@@ -2,6 +2,8 @@ let menuNav = document.getElementById("nav_menu");
 let viewMenu = document.getElementsByClassName("view_menu")[0];
 let locationNav = document.getElementById("nav_location");
 let foodMenu = document.getElementsByClassName("food__menu")[0];
+let homeLogos = document.getElementsByClassName("home__logo");
+
 
 menuNav.addEventListener("click", () => {
   document.getElementById("section_menu").scrollIntoView({
@@ -12,6 +14,19 @@ menuNav.addEventListener("click", () => {
 
 viewMenu.addEventListener("click", () => {
   document.getElementById("section_menu").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+});
+
+homeLogos[0].addEventListener("click", () => {
+  document.getElementById("nav").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+});
+homeLogos[1].addEventListener("click", () => {
+  document.getElementById("nav").scrollIntoView({
     behavior: "smooth",
     block: "start"
   });
