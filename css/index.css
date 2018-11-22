@@ -9,29 +9,38 @@
   --menu-font-size-S: 20px;
 }
 
+
 body {
-
+  width: 100%;
+  height: 100%;
   margin: 0;
-
-  /* The image used */
-  background-image: url("../images/banner_3.png");
-
-  /* Full height */
-  height: 100vh;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-
   font-family: var(--main-text-font);
 
 }
+
 
 .wrapper {
   height: 100%;
 
 
   scroll-snap-type: y proximity;
+}
+
+
+.banner {
+
+
+  width: calc(100vw - 20px);
+  height: 100vh;
+  /* The image used */
+  background-image: url("../images/banner_3.png");
+
+  /* Full height */
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .nav {
