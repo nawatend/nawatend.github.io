@@ -11,7 +11,7 @@
 
 body,
 html {
-  width: 100%;
+
   margin: 0;
 
   /* The image used */
@@ -25,18 +25,21 @@ html {
   background-repeat: no-repeat;
 
   font-family: var(--main-text-font);
+
 }
 
 .wrapper {
   height: 100%;
-  overflow: auto;
+
 
   scroll-snap-type: y proximity;
 }
+
 .nav {
   display: flex;
   justify-content: center;
 }
+
 .nav__items {
   margin-top: 70px;
   width: 80%;
@@ -56,6 +59,7 @@ html {
   width: 150px;
   text-align: center;
 }
+
 .nav__item:hover {
   border-bottom: 2px solid var(--home-color);
 }
@@ -89,6 +93,7 @@ html {
   top: 26%;
   left: calc(50% - 430px);
 }
+
 .view_menu {
   position: absolute;
   width: 250px;
@@ -105,6 +110,7 @@ html {
   align-items: center;
   cursor: pointer;
 }
+
 .view_menu:hover {
   border: 2px solid var(--home-color);
   font-size: 28px;
@@ -139,6 +145,7 @@ html {
   background-color: rgb(240, 151, 151);
   overflow: auto;
 }
+
 .food__menu {
   width: 65%;
   margin: 0px auto;
@@ -156,6 +163,7 @@ html {
   font-size: var(--menu-font-size-S);
   text-transform: capitalize;
 }
+
 .food__menu--item {
   margin: 20px 50px;
   font-size: var(--menu-font-size-S);
@@ -171,4 +179,12 @@ html {
 .collapsible-header {
   border: none !important;
   box-shadow: none !important;
+}
+
+#map {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+
+
 }
