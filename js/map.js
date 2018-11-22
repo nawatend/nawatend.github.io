@@ -1,7 +1,7 @@
 //initiate map
 //map
-let profileLong = 75;
-let profileLat = 41;
+let profileLong = 3.2287057;
+let profileLat = 51.2093512;
 
 
 
@@ -11,6 +11,6 @@ mapboxgl.accessToken =
 var map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/outdoors-v10",
-  zoom: 10,
+  zoom: 18,
   center: [profileLong, profileLat] // starting position
 });
