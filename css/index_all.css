@@ -217,6 +217,13 @@ html {
     justify-content: space-between;
 }
 
+.food__description {
+
+    margin-left: 50px;
+    font-size: 18px;
+    width: 500px;
+}
+
 .collapsible {
 
     -webkit-box-shadow: none !important;

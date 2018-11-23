@@ -88,8 +88,11 @@ loadMenuSmall = () => {
       let divContent = document.createElement("div");
       divContent.classList.add("collapsible-body");
 
-      divContent.textContent =
-        "LKslda orem ipsum dolor sit amet orem ipsum dolor sit ametorem ipsum dolor sit amet ";
+      let divContentText = document.createElement("div");
+      divContentText.classList.add("food__description");
+      divContentText.innerHTML = item.description;
+
+      divContent.appendChild(divContentText);
 
       divItem.appendChild(divName);
       divItem.appendChild(divPrice);
